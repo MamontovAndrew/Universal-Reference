@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D564036B22620AA6005E7D66 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564036A22620AA6005E7D66 /* ImageCell.swift */; };
+		D564036D22620AD3005E7D66 /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564036C22620AD3005E7D66 /* ListCell.swift */; };
+		D564036F22620B5A005E7D66 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564036E22620B5A005E7D66 /* TextCell.swift */; };
 		D5D6E0D32258D02600C0DA43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D6E0D22258D02600C0DA43 /* AppDelegate.swift */; };
 		D5D6E0D82258D02600C0DA43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5D6E0D62258D02600C0DA43 /* Main.storyboard */; };
 		D5D6E0DA2258D02700C0DA43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5D6E0D92258D02700C0DA43 /* Assets.xcassets */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D564036A22620AA6005E7D66 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		D564036C22620AD3005E7D66 /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
+		D564036E22620B5A005E7D66 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
 		D5D6E0CF2258D02600C0DA43 /* Universal Reference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Universal Reference.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5D6E0D22258D02600C0DA43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5D6E0D72258D02600C0DA43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -39,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D564036922620A5E005E7D66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D564036E22620B5A005E7D66 /* TextCell.swift */,
+				D564036C22620AD3005E7D66 /* ListCell.swift */,
+				D564036A22620AA6005E7D66 /* ImageCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D5D6E0C62258D02600C0DA43 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +74,7 @@
 		D5D6E0D12258D02600C0DA43 /* Universal Reference */ = {
 			isa = PBXGroup;
 			children = (
+				D564036922620A5E005E7D66 /* View */,
 				D5D6E0EA2258DD9C00C0DA43 /* Controller */,
 				D5D6E0E62258D1EE00C0DA43 /* Model */,
 				D5D6E0D22258D02600C0DA43 /* AppDelegate.swift */,
@@ -160,7 +177,10 @@
 				D5D6E0E52258D1DD00C0DA43 /* Item.swift in Sources */,
 				D5D6E0E82258D2CD00C0DA43 /* ItemType.swift in Sources */,
 				D5D6E0EC2258DDE200C0DA43 /* ItemListTableViewController.swift in Sources */,
+				D564036F22620B5A005E7D66 /* TextCell.swift in Sources */,
+				D564036D22620AD3005E7D66 /* ListCell.swift in Sources */,
 				D5D6E0D32258D02600C0DA43 /* AppDelegate.swift in Sources */,
+				D564036B22620AA6005E7D66 /* ImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
